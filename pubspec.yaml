@@ -1,0 +1,27 @@
+name: exampleflavors
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_flavorizr: ^2.2.3
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^4.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  # Você pode definir um valor padrão ou deixar isso configurado nos arquivos específicos
+
+flutter:
+  uses-material-design: true
