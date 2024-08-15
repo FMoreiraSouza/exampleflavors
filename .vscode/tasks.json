@@ -8,7 +8,10 @@
             "args": [
                 "empresa1"
             ],
-            "problemMatcher": []
+            "problemMatcher": [],
+            "icon": {
+                "id": "play"
+            }
         },
         {
             "label": "Run Empresa 2",
@@ -17,7 +20,10 @@
             "args": [
                 "empresa2"
             ],
-            "problemMatcher": []
+            "problemMatcher": [],
+            "icon": {
+                "id": "play"
+            }
         }
     ]
 }
