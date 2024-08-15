@@ -2,19 +2,19 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run empresa1",
+            "name": "Debug Empresa 1",
             "type": "PowerShell",
             "request": "launch",
-            "script": "${workspaceFolder}/run_with_flavor.ps1",
+            "script": "${workspaceFolder}/start_flavor.ps1",
             "args": [
                 "empresa1"
             ]
         },
         {
-            "name": "Run empresa2",
+            "name": "Debug Empresa 2",
             "type": "PowerShell",
             "request": "launch",
-            "script": "${workspaceFolder}/run_with_flavor.ps1",
+            "script": "${workspaceFolder}/start_flavor.ps1",
             "args": [
                 "empresa2"
             ]

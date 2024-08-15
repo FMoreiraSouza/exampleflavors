@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Empresa 1",
+            "type": "shell",
+            "command": "${workspaceFolder}/start_flavor.ps1",
+            "args": [
+                "empresa1"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Empresa 2",
+            "type": "shell",
+            "command": "${workspaceFolder}/start_flavor.ps1",
+            "args": [
+                "empresa2"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
